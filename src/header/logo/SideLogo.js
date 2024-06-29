@@ -5,7 +5,7 @@ const SideLogo = () => {
     <div>
       <img
         style={{ height: "130px", width: "160px" }}
-        src="/sriHomesLogo.jpg"
+        src="sriHomesLogo.jpg"
       ></img>
     </div>
   );

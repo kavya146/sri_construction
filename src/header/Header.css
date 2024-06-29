@@ -1,0 +1,11 @@
+.header-style{
+    background-color: #2C3E50;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.sidenav-style{
+    display: flex;
+    align-items: center;
+}

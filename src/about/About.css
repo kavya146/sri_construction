@@ -1,0 +1,40 @@
+.padding-top-btm{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.margin-left-rht{
+    margin-left: 135px;
+    margin-right: 135px;
+}
+.margin-rht{
+    margin-right: 50px;
+}
+.disply-flex{
+    display: flex;
+}
+.about-display-direction{
+    display: flex;
+    flex-direction: column;
+}
+.about-head{
+    margin-top: 30px;
+}
+.about-head h1{
+    font-family: 'BioRhyme', Georgia, "Times New Roman", serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #1557bd !important;
+    
+}
+
+
+
+.btn-view-all{
+    background-color: #2C3E50;
+    border-radius: 20px;
+    color: white;
+    
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size:large;
+}

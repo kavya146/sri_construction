@@ -10,10 +10,7 @@ function MainCarousel() {
           <img className="main-carousel-img" src="/hall.jpg"></img>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="main-carousel-img"
-            src="https://github.com/kavya146/sri_construction/blob/main/public/bedroom.jpg"
-          ></img>
+          <img className="main-carousel-img" src="/bedroom.jpg"></img>
         </Carousel.Item>
         <Carousel.Item>
           <img className="main-carousel-img" src="/kitchen.jpg"></img>

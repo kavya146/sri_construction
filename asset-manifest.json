@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sri_construction/static/css/main.12219578.css",
-    "main.js": "/sri_construction/static/js/main.e6262360.js",
+    "main.js": "/sri_construction/static/js/main.2f055178.js",
     "static/js/453.cb7de53a.chunk.js": "/sri_construction/static/js/453.cb7de53a.chunk.js",
     "index.html": "/sri_construction/index.html",
     "main.12219578.css.map": "/sri_construction/static/css/main.12219578.css.map",
-    "main.e6262360.js.map": "/sri_construction/static/js/main.e6262360.js.map",
+    "main.2f055178.js.map": "/sri_construction/static/js/main.2f055178.js.map",
     "453.cb7de53a.chunk.js.map": "/sri_construction/static/js/453.cb7de53a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.12219578.css",
-    "static/js/main.e6262360.js"
+    "static/js/main.2f055178.js"
   ]
 }

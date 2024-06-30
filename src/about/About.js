@@ -4,9 +4,12 @@ import "./About.css";
 const About = () => {
   return (
     <div className="padding-top-btm">
-      <div className="margin-left-rht disply-flex">
+      <div className="margin-left-rht disply-flex tab-mobile-view">
         <div className="margin-rht">
-          <img src="https://www.credon.in/wp-content/uploads/2024/02/home-about-Img.png"></img>
+          <img
+            className="img-resp"
+            src="https://www.credon.in/wp-content/uploads/2024/02/home-about-Img.png"
+          ></img>
         </div>
         <div className="about-display-direction">
           <div>

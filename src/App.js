@@ -1,19 +1,21 @@
 import "./App.css";
-import About from "./about/About";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+import ContactUs from "./contactUs/ContactUs";
+import Main from "./Main/Main";
 import Header from "./header/Header";
-import HouseVideo from "./houseVideo/HouseVideo";
-import MainCarousel from "./main_carousel/carousel";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <Router>
+      <div className="App">
         <Header />
-        <MainCarousel />
-        <About />
-        <HouseVideo />
-      </header>
-    </div>
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

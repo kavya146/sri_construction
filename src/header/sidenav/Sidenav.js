@@ -1,15 +1,18 @@
 import React from "react";
 import "./Sidenav.css";
 import { tabs } from "./configs";
+import { Link } from "react-router-dom";
 
 const Sidenav = () => {
   return (
     <div>
-      {tabs.map((x, index) => (
-        <a key={index} className="nav-margin font">
-          {x}
-        </a>
-      ))}
+      <nav>
+        {tabs.map((x) => (
+          <Link to={`/${x.id}`} key={x.id} className="nav-margin font">
+            {x.name}
+          </Link>
+        ))}
+      </nav>
     </div>
   );
 };

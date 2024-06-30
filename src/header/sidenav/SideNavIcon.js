@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import "./Sidenav.css";
 import { tabs } from "./configs";
+import { Link } from "react-router-dom";
 
 const SideNavIcon = () => {
-  const [isOpen, setIsOpen] = useState("false");
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -15,11 +16,15 @@ const SideNavIcon = () => {
         &#9776;
       </div>
       <div className={isOpen ? "menu-open" : "menu"}>
-        <ul>
-          {tabs.map((x, index) => (
-            <li key={index}>{x}</li>
-          ))}
-        </ul>
+        <nav>
+          <ul>
+            {tabs.map((x) => (
+              <li key={x.id}>
+                <Link to={`/${x.id}`}>{x.name}</Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
       </div>
     </div>
   );

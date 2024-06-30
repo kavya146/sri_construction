@@ -14,7 +14,6 @@
 }
 .menu{
     display: none;
-   
 }
 .menu-open{
     display: flex;
@@ -31,6 +30,10 @@
 .menu-open ul{
     list-style: none;
     
+}
+.menu-open ul li a{
+    text-decoration: none;
+    color: black;
 }
 
 @media (min-width:769px) and (max-width:900px) {

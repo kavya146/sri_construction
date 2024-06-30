@@ -1,4 +1,46 @@
 .main-carousel-img{
     width: 100%;
-    height: calc(100vh - 140px)
+    height: calc(100vh - 140px);
+   
+}
+
+@media (min-width: 1600px) {
+    .main-carousel-img {
+        height: calc(100vh - 160px);
+    }
+}
+
+/* Responsive design for desktops and laptops */
+@media (min-width: 1200px) and (max-width: 1599px) {
+    .main-carousel-img {
+        height: calc(100vh - 140px);
+    }
+}
+
+/* Responsive design for tablets */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .main-carousel-img {
+        height: calc(100vh - 120px);
+    }
+}
+
+/* Responsive design for small tablets and large phones */
+@media (min-width: 481px) and (max-width: 767px) {
+    .main-carousel-img {
+        height: calc(100vh - 100px);
+    }
+}
+
+/* Responsive design for phones 
+@media (max-width: 480px) {
+    .main-carousel-img {
+        height: calc(100vh - 80px);
+    }
+}*/
+
+/* Responsive design for iPhone 14 Plus */
+@media (max-width: 1284px) and (min-width: 1242px) and (orientation: portrait) {
+    .main-carousel-img {
+        height: calc(100vh - 110px); /* Adjusted for iPhone 14 Plus */
+    }
 }

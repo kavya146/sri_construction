@@ -6,3 +6,20 @@
     color: white;
     cursor: pointer;
 }
+.sidenav-icon-style{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+@media (min-width:769px) and (max-width:900px) {
+    .font{
+        font-size: small;
+    }
+}
+
+@media (min-width:901px) and (max-width:1024px){
+    .font{
+        font-size: medium;
+    }
+}

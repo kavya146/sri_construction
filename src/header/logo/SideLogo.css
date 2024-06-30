@@ -1,0 +1,19 @@
+.sidenav-logo{
+    height: 140px;
+    width: 160px;
+    
+}
+
+@media (max-width:900px){
+    .sidenav-logo{
+        height: 80px;
+        width: 100px;
+    }
+}
+
+@media (min-width:901px) and (max-width:1024px){
+    .sidenav-logo{
+        height: 100px;
+        width: 120px;
+    }
+}

@@ -1,17 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import SideLogo from "./logo/SideLogo";
 import Sidenav from "./sidenav/Sidenav";
 import "./Header.css";
+import SideNavIcon from "./sidenav/SideNavIcon";
 
 const Header = () => {
+  const [visible, setVisible] = useState("false");
+
+  const toggleSidenav = () => {
+    setVisible(!visible);
+  };
+
   return (
     <div className="header-style">
       <div>
         <SideLogo />
       </div>
-      <div className="sidenav-style">
-        <Sidenav />
+      <div className="sidenav-icon" onClick={toggleSidenav}>
+        <SideNavIcon />
       </div>
+      {visible && (
+        <div className="sidenav-style">
+          <Sidenav />
+        </div>
+      )}
     </div>
   );
 };

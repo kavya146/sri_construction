@@ -12,6 +12,11 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Main />} />
+          <Route path="/home" element={<Main />} />
+          <Route path="/about-us" element={<Main />} />
+          <Route path="/our-work" element={<Main />} />
+          <Route path="/services" element={<Main />} />
+          <Route path="/choose-us" element={<Main />} />
           <Route path="/contact-us" element={<ContactUs />} />
         </Routes>
       </div>

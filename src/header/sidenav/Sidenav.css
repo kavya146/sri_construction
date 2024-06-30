@@ -7,9 +7,30 @@
     cursor: pointer;
 }
 .sidenav-icon-style{
-    font-size: 30px;
+    font-size: 50px;
     color: white;
     cursor: pointer;
+    
+}
+.menu{
+    display: none;
+   
+}
+.menu-open{
+    display: flex;
+    position: absolute;
+    z-index: 100;
+    background-color: gray;
+    left: 0;
+    height: 100%;
+    width: 100%;
+   font-size: larger;
+    color: white;  
+}
+
+.menu-open ul{
+    list-style: none;
+    
 }
 
 @media (min-width:769px) and (max-width:900px) {

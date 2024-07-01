@@ -3,17 +3,27 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./Carousel.css";
 
 function MainCarousel() {
+  const publicPath = process.env.PUBLIC_URL;
   return (
     <div>
       <Carousel>
         <Carousel.Item>
-          <img className="main-carousel-img" src="hall.jpg"></img>
+          <img
+            className="main-carousel-img"
+            src={`${publicPath}/hall.jpg`}
+          ></img>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="main-carousel-img" src="bedroom.jpg"></img>
+          <img
+            className="main-carousel-img"
+            src={`${publicPath}/bedroom.jpg`}
+          ></img>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="main-carousel-img" src="kitchen.jpg"></img>
+          <img
+            className="main-carousel-img"
+            src={`${publicPath}/kitchen.jpg`}
+          ></img>
         </Carousel.Item>
       </Carousel>
     </div>

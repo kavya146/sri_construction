@@ -45,6 +45,13 @@
     font-size: medium;
     font-weight: 600;
 }
+a{
+    text-decoration: none;
+}
+ a:hover{
+    color: black;
+   
+}
 
 @media (min-width:769px) and (max-width:900px) {
     .font{

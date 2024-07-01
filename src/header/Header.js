@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <div className="header-style">
-      <div>
+      <div style={{ display: "flex", alignItems: "center" }}>
         <SideLogo />
       </div>
       <div className="sidenav-icon" onClick={toggleSidenav}>

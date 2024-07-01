@@ -7,7 +7,7 @@
     cursor: pointer;
 }
 .sidenav-icon-style{
-    font-size: 50px;
+    font-size: 60px;
     color: white;
     cursor: pointer;
     
@@ -19,12 +19,17 @@
     display: flex;
     position: absolute;
     z-index: 100;
-    background-color: gray;
+    background-color: white;
     left: 0;
     height: 100%;
     width: 100%;
    font-size: larger;
     color: white;  
+   
+}
+
+.menu-open nav{
+    margin-top: 20px;
 }
 
 .menu-open ul{
@@ -34,6 +39,11 @@
 .menu-open ul li a{
     text-decoration: none;
     color: black;
+}
+.menu-open ul li{
+    margin-bottom: 10px;
+    font-size: medium;
+    font-weight: 600;
 }
 
 @media (min-width:769px) and (max-width:900px) {

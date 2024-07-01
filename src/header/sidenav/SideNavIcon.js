@@ -19,7 +19,7 @@ const SideNavIcon = () => {
         <nav>
           <ul>
             {tabs.map((x) => (
-              <li key={x.id}>
+              <li onClick={() => toggleMenu()} key={x.id}>
                 <Link to={`/${x.id}`}>{x.name}</Link>
               </li>
             ))}

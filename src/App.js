@@ -6,7 +6,7 @@ import Header from "./header/Header";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/sri_construction">
       <div className="App">
         <Header />
         <Routes>
